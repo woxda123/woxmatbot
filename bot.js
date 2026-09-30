@@ -17,7 +17,7 @@ bot.command("start", async (ctx) => {
   const code = ctx.match;
   const kb = new InlineKeyboard();
   if (code) {
-    kb.url("⚔️ Принять вызов", `https://t.me/${ctx.me.username}/app?startapp=${code}`);
+    kb.url("⚔️ Принять вызов", `http://t.me/woxmat_bot/play?startapp=${code}`);
     return ctx.reply("Вас приглашают сыграть в Wox Mat!", { reply_markup: kb });
   }
   kb.webApp("♟ Играть в Wox Mat", WEBAPP_URL);
