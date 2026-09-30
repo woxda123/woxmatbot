@@ -1,0 +1,1 @@
+{"name":"woxmat-bot","version":"1.0.0","main":"bot.js","scripts":{"start":"node bot.js"},"dependencies":{"grammy":"^1.30.0","dotenv":"^16.4.5"}}
